@@ -1,1 +1,4 @@
-alert(9)
+function showAlert(message) {
+    alert(message);
+}
+
